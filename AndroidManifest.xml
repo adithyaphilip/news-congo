@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tech.appvalue.newsindia"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="tech.appvalue.newsindia.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tech.appvalue.newsindia.MainActivity"
+            android:label="@string/app_name" >            
+        </activity>
+        <activity
+            android:name="tech.appvalue.newsindia.NewsDisplayActivity"
+            android:label="@string/title_activity_news_display" >
+        </activity>
+        <activity
+            android:name="tech.appvalue.newsindia.FavoritesActivity"
+            android:label="@string/title_activity_favorites" >
+        </activity>
+        <activity
+            android:name="tech.appvalue.newsindia.NewspaperEditorActivity"
+            android:label="@string/title_activity_newspaper_editor" >
+        </activity>
+        <activity
+            android:name="tech.appvalue.newsindia.DeleteNewspaperActivity"
+            android:label="@string/title_activity_delete_newspaper"
+            android:theme="@android:style/Theme.Dialog" >
+"
+        </activity>
+    </application>
+
+</manifest>

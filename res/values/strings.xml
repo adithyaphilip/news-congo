@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">News India</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_news_display">NewsDisplayActivity</string>
+    <string name="title_activity_favorites">FavoritesActivity</string>
+    <string name="title_activity_newspaper_editor">NewspaperEditorActivity</string>
+    <string name="title_activity_delete_newspaper">Delete Newspaper</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+</resources>
