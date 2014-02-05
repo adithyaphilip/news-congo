@@ -1,5 +1,5 @@
-News Congolmerate
-____________________________
+Welcome to News Conglomerate!
+___________________________________
 Accumulates news from a variety of different sources and displays them. Can be easily configured to work for your own server with a REST API which queries fro pre-defined newspaper sets.
 Features:-
 * Users can read different newspapers from all around the world, all through one application
